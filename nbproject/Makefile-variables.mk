@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=2103_project
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/2103_project
+CND_ARTIFACT_NAME_Debug=2103_group_project
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/2103_group_project
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=2103project.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/2103project.tar
+CND_PACKAGE_NAME_Debug=2103groupproject.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/2103groupproject.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=2103_project
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/2103_project
+CND_ARTIFACT_NAME_Release=2103_group_project
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/2103_group_project
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=2103project.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/2103project.tar
+CND_PACKAGE_NAME_Release=2103groupproject.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/2103groupproject.tar
 #
 # include compiler specific variables
 #
