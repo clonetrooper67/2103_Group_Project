@@ -7,9 +7,9 @@
 
 using namespace std;
 
-const int easy = 1000;
-const int medium = 500;
-const int hard = 250;
+const int easy = 1000000;
+const int medium = 500000;
+const int hard = 250000;
 
 int difficultyTime;
 int userScore = 0;
@@ -130,8 +130,8 @@ int main() {
             //  Sleep for the proper amount of time and then clear the console
             usleep(difficultyTime);
 //            system("CLS");
-            system("clear");
-            usleep(250);
+            system("tput clear");
+            usleep(250000);
             printClear();
         }
         cout << "Please enter the character sequence you saw: ";
