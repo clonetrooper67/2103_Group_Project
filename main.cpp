@@ -30,23 +30,45 @@ string actualSequence;
 char difficulty;
 
 void printClear() {
+    // outputs a blank table
     cout << blank << endl;
 }
 
 void printRed() {
+    // outputs a table with red active
     cout << red << endl;
 }
 
 void printGreen() {
+    // outputs a table with green active
     cout << green << endl;
 }
 
 void printBlue() {
+    // outputs a table with blue active
     cout << blue << endl;
 }
 
 void printYellow() {
+    // outputs a table with yellow active
     cout << yellow << endl;
+}
+
+string getFileContents(ifstream& File) {
+    string Lines = "";
+//  Make sure the file exists
+    if (File) {
+        while (File.good()) {
+            string TempLine; //Define the temp line
+            getline(File, TempLine); // Get the temp line
+            TempLine += "\n"; //Add newline
+
+            Lines += TempLine; //Add newline
+        }
+        return Lines;
+    } else {
+        return "File does not exist";
+    }
 }
 
 int main() {
@@ -147,19 +169,3 @@ int main() {
     return 0;
 }
 
-string getFileContents(ifstream& File) {
-    string Lines = "";
-//  Make sure the file exists
-    if (File) {
-        while (File.good()) {
-            string TempLine; //Define the temp line
-            getline(File, TempLine); // Get the temp line
-            TempLine += "\n"; //Add newline
-
-            Lines += TempLine; //Add newline
-        }
-        return Lines;
-    } else {
-        return "File does not exist";
-    }
-}
