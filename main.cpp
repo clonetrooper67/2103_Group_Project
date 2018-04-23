@@ -121,11 +121,14 @@ int main() {
     
     while (runAgain) {
         actualSequence = "";
-        
+
         for (int i = 0; i < numRounds; i++) {
             //  Generate a random number
             srand(time(NULL));
             letter = rand() % 4;
+
+	    // clear the last table
+	    system("tput clear");
 
             //  Choose the letter based on the random number
             switch (letter) {
@@ -151,7 +154,6 @@ int main() {
             }
             //  Sleep for the proper amount of time and then clear the console
             usleep(difficultyTime);
-//            system("CLS");
             system("tput clear");
             usleep(250000);
             printClear();
